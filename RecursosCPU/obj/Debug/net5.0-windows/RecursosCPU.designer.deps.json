@@ -6,11 +6,30 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v5.0": {
+      "BouncyCastle/1.8.6.1": {
+        "runtime": {
+          "lib/BouncyCastle.Crypto.dll": {
+            "assemblyVersion": "1.8.6.0",
+            "fileVersion": "1.8.20052.1"
+          }
+        }
+      },
       "CXuesong.Shims.VisualBasic.Devices/0.3.0": {
         "runtime": {
           "lib/netstandard2.0/CXuesong.Shims.VisualBasic.Devices.dll": {
             "assemblyVersion": "0.3.0.0",
             "fileVersion": "0.3.0.0"
+          }
+        }
+      },
+      "iTextSharp/5.5.13.2": {
+        "dependencies": {
+          "BouncyCastle": "1.8.6.1"
+        },
+        "runtime": {
+          "lib/itextsharp.dll": {
+            "assemblyVersion": "5.5.13.2",
+            "fileVersion": "5.5.13.2"
           }
         }
       },
@@ -108,12 +127,26 @@
     }
   },
   "libraries": {
+    "BouncyCastle/1.8.6.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rkqpuKmJkdcfTMBkIj1b5nMdBAWKwAyh+I/BQYeqqSD2jkIlhwc9qBNKmSbnpmmm5c29qHZGLpvBSTNWvDLtQA==",
+      "path": "bouncycastle/1.8.6.1",
+      "hashPath": "bouncycastle.1.8.6.1.nupkg.sha512"
+    },
     "CXuesong.Shims.VisualBasic.Devices/0.3.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-EhdCMIo8Dm1dQHjuo+/Wgksc1DwkVgLmWHB0O09VYCmdZVx1VJaALHG/uNbNgfTrQ6ktLf3FKnfEthMMN8mDWg==",
       "path": "cxuesong.shims.visualbasic.devices/0.3.0",
       "hashPath": "cxuesong.shims.visualbasic.devices.0.3.0.nupkg.sha512"
+    },
+    "iTextSharp/5.5.13.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8m9oT1nh9F4Z1tzWUey/8lEzZtMGFCDXQY5+8/SSmPgUWAAAWniRo8pimKUZyteNqJr5vtFBxjAhRwLxG7Q0zQ==",
+      "path": "itextsharp/5.5.13.2",
+      "hashPath": "itextsharp.5.5.13.2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/5.0.0": {
       "type": "package",

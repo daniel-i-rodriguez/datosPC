@@ -21,3 +21,5 @@ C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\obj\Debug\net5.0-windows
 C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Debug\net5.0-windows\System.CodeDom.dll
 C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Debug\net5.0-windows\System.Management.dll
 C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp3.1\System.Management.dll
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Debug\net5.0-windows\BouncyCastle.Crypto.dll
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Debug\net5.0-windows\itextsharp.dll

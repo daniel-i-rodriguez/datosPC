@@ -14,6 +14,9 @@ using System.Net;
 using System.Net.Sockets;
 using System.Diagnostics;
 using System.Threading;
+using iTextSharp.text;
+using iTextSharp.text.pdf;
+
 
 
 namespace RecursosCPU
@@ -97,44 +100,32 @@ namespace RecursosCPU
             //MessageBox.Show("Nombre PC:" + "\n" + nombrePC + 
             //    "\n\n Memoria RAM:" + "\n" + memoriaRAM + "\n\n Memoria PC:" + "\n" + memoriaPC);
 
-            label1.Text = "Nombre PC:" + "\n" + nombrePC +
-                "\n\n Memoria RAM:" + "\n" + memoriaRAM + "\n\n Memoria PC:" + "\n" + memoriaPC;
+            //label1.Text = "Nombre PC:" + "\n" + nombrePC +
+            //    "\n\n Memoria RAM:" + "\n" + memoriaRAM + "\n\n Memoria PC:" + "\n" + memoriaPC;
 
-            printPDFWithAcrobat();
+
+            try
+            {
+                Document document = new Document();
+                PdfWriter.GetInstance(document, new FileStream("C:/Users/" + myComputer.Name + "/Downloads/nuevo 1.pdf", FileMode.Create));
+                //MessageBox.Show("C:/Users/" + myComputer.Name + "/Downloads/nuevo 1.pdf");
+                document.Open();
+                Paragraph p = new Paragraph("Nombre PC:" + "\n" + nombrePC +
+                "\n\n Memoria RAM:" + "\n" + memoriaRAM + "\n\n Memoria PC:" + "\n" + memoriaPC);
+                document.Add(p);
+                document.Close();
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.ToString());
+            }
             
         }
 
-        public void printPDFWithAcrobat()
-        {
-            string Filepath = @"C:\Users\IROXIT041\Downloads\";
 
-            using (PrintDialog Dialog = new PrintDialog())
-            {
-                Dialog.ShowDialog();
 
-                ProcessStartInfo printProcessInfo = new ProcessStartInfo()
-                {
-                    Verb = "print",
-                    CreateNoWindow = true,
-                    FileName = Filepath,
-                    WindowStyle = ProcessWindowStyle.Hidden
-                };
-
-                Process printProcess = new Process();
-                printProcess.StartInfo = printProcessInfo;
-                printProcess.Start();
-
-                printProcess.WaitForInputIdle();
-
-                Thread.Sleep(3000);
-
-                if (false == printProcess.CloseMainWindow())
-                {
-                    printProcess.Kill();
-                }
-            }
-        }
-
+        
         private void button2_Click(object sender, EventArgs e)
         {
             const string tempfile = "tempfile.tmp";

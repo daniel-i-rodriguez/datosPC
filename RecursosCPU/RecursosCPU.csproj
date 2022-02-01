@@ -4,6 +4,7 @@
     <OutputType>WinExe</OutputType>
     <TargetFramework>net5.0-windows</TargetFramework>
     <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>32officeicons-31_89708.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>

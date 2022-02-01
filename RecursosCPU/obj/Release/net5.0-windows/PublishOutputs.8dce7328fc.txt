@@ -1,0 +1,11 @@
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Release\net5.0-windows\publish\RecursosCPU.exe
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Release\net5.0-windows\publish\RecursosCPU.dll
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Release\net5.0-windows\publish\RecursosCPU.deps.json
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Release\net5.0-windows\publish\RecursosCPU.runtimeconfig.json
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Release\net5.0-windows\publish\RecursosCPU.pdb
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Release\net5.0-windows\publish\BouncyCastle.Crypto.dll
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Release\net5.0-windows\publish\CXuesong.Shims.VisualBasic.Devices.dll
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Release\net5.0-windows\publish\itextsharp.dll
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Release\net5.0-windows\publish\System.CodeDom.dll
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Release\net5.0-windows\publish\System.Management.dll
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Release\net5.0-windows\publish\runtimes\win\lib\netcoreapp3.1\System.Management.dll

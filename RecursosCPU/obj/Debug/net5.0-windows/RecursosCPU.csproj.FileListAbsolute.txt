@@ -6,7 +6,6 @@ C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Debug\net5.0-windows
 C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Debug\net5.0-windows\ref\RecursosCPU.dll
 C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Debug\net5.0-windows\RecursosCPU.pdb
 C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\bin\Debug\net5.0-windows\CXuesong.Shims.VisualBasic.Devices.dll
-C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\obj\Debug\net5.0-windows\RecursosCPU.csproj.AssemblyReference.cache
 C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\obj\Debug\net5.0-windows\RecursosCPU.Form1.resources
 C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\obj\Debug\net5.0-windows\RecursosCPU.csproj.GenerateResource.cache
 C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\obj\Debug\net5.0-windows\RecursosCPU.GeneratedMSBuildEditorConfig.editorconfig

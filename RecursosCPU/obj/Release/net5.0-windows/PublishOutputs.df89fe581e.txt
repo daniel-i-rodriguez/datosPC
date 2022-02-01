@@ -1,0 +1,11 @@
+C:\Users\IROXIT041\Desktop\RecursosPC\RecursosCPU.exe
+C:\Users\IROXIT041\Desktop\RecursosPC\RecursosCPU.dll
+C:\Users\IROXIT041\Desktop\RecursosPC\RecursosCPU.deps.json
+C:\Users\IROXIT041\Desktop\RecursosPC\RecursosCPU.runtimeconfig.json
+C:\Users\IROXIT041\Desktop\RecursosPC\RecursosCPU.pdb
+C:\Users\IROXIT041\Desktop\RecursosPC\BouncyCastle.Crypto.dll
+C:\Users\IROXIT041\Desktop\RecursosPC\CXuesong.Shims.VisualBasic.Devices.dll
+C:\Users\IROXIT041\Desktop\RecursosPC\itextsharp.dll
+C:\Users\IROXIT041\Desktop\RecursosPC\System.CodeDom.dll
+C:\Users\IROXIT041\Desktop\RecursosPC\System.Management.dll
+C:\Users\IROXIT041\Desktop\RecursosPC\runtimes\win\lib\netcoreapp3.1\System.Management.dll

@@ -31,6 +31,7 @@ namespace RecursosCPU
         public string nombrePC;
         public string memoriaRAM;
         public string memoriaPC;
+        public string internet;
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -103,6 +104,14 @@ namespace RecursosCPU
             //label1.Text = "Nombre PC:" + "\n" + nombrePC +
             //    "\n\n Memoria RAM:" + "\n" + memoriaRAM + "\n\n Memoria PC:" + "\n" + memoriaPC;
 
+            const string tempfile = "tempfile.tmp";
+            System.Net.WebClient webClient = new System.Net.WebClient();
+            Console.WriteLine("Downloading file....");
+            System.Diagnostics.Stopwatch sw = System.Diagnostics.Stopwatch.StartNew();
+            webClient.DownloadFile("http://dl.google.com/googletalk/googletalk-setup.exe", tempfile);
+            sw.Stop();
+            FileInfo fileInfo = new FileInfo(tempfile);
+            long speed = fileInfo.Length / sw.Elapsed.Seconds;
 
             try
             {
@@ -111,9 +120,14 @@ namespace RecursosCPU
                 //MessageBox.Show("C:/Users/" + myComputer.Name + "/Downloads/nuevo 1.pdf");
                 document.Open();
                 Paragraph p = new Paragraph("Nombre PC:" + "\n" + nombrePC +
-                "\n\n Memoria RAM:" + "\n" + memoriaRAM + "\n\n Memoria PC:" + "\n" + memoriaPC);
+                "\n\n Memoria RAM:" + "\n" + memoriaRAM + "\n\n Memoria PC:" + "\n" + memoriaPC +
+                "\n\n Velocidad de internet" + "\n Download duration: " + sw.Elapsed + "," +
+                "\n File size: " + fileInfo.Length + "," +"\n Speed: " + speed + " bps");
                 document.Add(p);
                 document.Close();
+
+                MessageBox.Show("Se descargo archivo correctamente en la ruta" +
+                    "\n C:/Users/" + myComputer.Name + "/Downloads/.pdf");
             }
             catch (Exception ex)
             {
@@ -124,25 +138,6 @@ namespace RecursosCPU
         }
 
 
-
-        
-        private void button2_Click(object sender, EventArgs e)
-        {
-            const string tempfile = "tempfile.tmp";
-            System.Net.WebClient webClient = new System.Net.WebClient();
-            Console.WriteLine("Downloading file....");
-            System.Diagnostics.Stopwatch sw = System.Diagnostics.Stopwatch.StartNew();
-            webClient.DownloadFile("http://dl.google.com/googletalk/googletalk-setup.exe", tempfile);
-            sw.Stop();
-            FileInfo fileInfo = new FileInfo(tempfile);
-            long speed = fileInfo.Length / sw.Elapsed.Seconds;
-
-            MessageBox.Show("Download duration: " + sw.Elapsed + "," +
-                            "\n File size: " + fileInfo.Length + "," +
-                            "\n Speed: " + speed + " bps");
-        }
-
-        
 
     }
 }

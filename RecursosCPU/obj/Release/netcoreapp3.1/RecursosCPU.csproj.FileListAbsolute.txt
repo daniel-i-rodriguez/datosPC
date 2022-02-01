@@ -1,0 +1,7 @@
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\obj\Release\netcoreapp3.1\RecursosCPU.csproj.AssemblyReference.cache
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\obj\Release\netcoreapp3.1\RecursosCPU.Form1.resources
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\obj\Release\netcoreapp3.1\RecursosCPU.csproj.GenerateResource.cache
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\obj\Release\netcoreapp3.1\RecursosCPU.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\obj\Release\netcoreapp3.1\RecursosCPU.AssemblyInfoInputs.cache
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\obj\Release\netcoreapp3.1\RecursosCPU.AssemblyInfo.cs
+C:\Users\IROXIT041\source\repos\RecursosCPU\RecursosCPU\obj\Release\netcoreapp3.1\RecursosCPU.csproj.CoreCompileInputs.cache

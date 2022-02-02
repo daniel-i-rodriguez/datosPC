@@ -116,7 +116,7 @@ namespace RecursosCPU
             try
             {
                 Document document = new Document();
-                PdfWriter.GetInstance(document, new FileStream("C:/Users/" + myComputer.Name + "/Downloads/nuevo 1.pdf", FileMode.Create));
+                PdfWriter.GetInstance(document, new FileStream("C:/Users/" + myComputer.Name + "/Downloads/DatosPC.pdf", FileMode.Create));
                 //MessageBox.Show("C:/Users/" + myComputer.Name + "/Downloads/nuevo 1.pdf");
                 document.Open();
                 Paragraph p = new Paragraph("Nombre PC:" + "\n" + nombrePC +
